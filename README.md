@@ -24,6 +24,11 @@ curl -fsSL https://get.docker.com | bash -s docker
 
 ## 2. 去网站上开播（通过malus或者穿梭等免费的chrome插件即可做到），复制出网站上的提供的“服务器”和“直播码”，将两段链接拼接到一起。下载repo中的srt.conf，将拼接好的链接替换到srt.conf第47行的output后。
 
+得到的结果参考如下：
+
+rtmp://txy.live-push.bilivideo.com/live-bvc/?streamname=live_xxxxxxxxxxx&key=yyyyyyyyyyyyyyyyy&schedule=rtmp&pflag=9
+
+
 ![0FB5E0C90AE62846FF92E78152F8AF5D](https://user-images.githubusercontent.com/47912037/140515796-0cda5977-a382-46e7-8dad-d9dfc12fbfdb.jpg)
 
 ## 3. 在国内服务器的root目录里新建srt2rtmp文件夹，并将修改好的srt.conf放入其中。
