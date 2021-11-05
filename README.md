@@ -50,7 +50,7 @@ docker run -d -p 你的端口:1937/udp --restart=always --name srt2rtmp --networ
 
 去网站上开播
 
-打开obs，将 设置-推流-服务器中的连接改为
+打开obs，将 设置-推流-服务器中的链接改为
 
 srt://你的服务器IP:1937?mode=caller&transtype=live&streamid=#!::h=vhost/ingress/streamkey,m=publish
 
