@@ -30,6 +30,8 @@ rtmp://txy.live-push.bilivideo.com/live-bvc/?streamname=live_xxxxxxxxxxx&key=yyy
 
 
 ![0FB5E0C90AE62846FF92E78152F8AF5D](https://user-images.githubusercontent.com/47912037/140515796-0cda5977-a382-46e7-8dad-d9dfc12fbfdb.jpg)
+![D5263FB51B4A65AFACCD8C0E4CE1D35C](https://user-images.githubusercontent.com/47912037/140517511-e1acf3a4-d20f-446e-ba42-a40dba277766.jpg)
+
 
 ## 3. 在国内服务器的root目录里新建srt2rtmp文件夹，并将修改好的srt.conf放入其中。
 
