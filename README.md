@@ -60,7 +60,7 @@ srt://你的服务器IP:1937?mode=caller&transtype=live&streamid=#!::h=vhost/ing
 ![C0E2E80BC5BE43826B334E5D97BA3B4C](https://user-images.githubusercontent.com/47912037/140516484-33ecefc7-eb96-49ad-8fe7-746813804f30.jpg)
 
 然后开播测试，确保OBS侧正常推流之后，前往直播间查看直播画面是否有花屏，丢帧等问题。
-![image](https://user-images.githubusercontent.com/47912037/114272423-7889dd80-9a59-11eb-8107-fbaeb57131d7.png)
+
 
 
 请尽情使用吧。
