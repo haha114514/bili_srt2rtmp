@@ -15,7 +15,7 @@
 请自行通过iperf3测试本地到国内服务器的udp速度
 
 # 中转教程
-## 0. 请注意放行有关端口的UDP流量
+## 0. 请注意放行有关端口的UDP流量（如果你是买的nat服务器，请确保服务商那边没有禁用UDP流量）
 
 
 ## 1.	安装Docker
@@ -37,11 +37,11 @@ rtmp://txy.live-push.bilivideo.com/live-bvc/?streamname=live_xxxxxxxxxxx&key=yyy
 
 ## 4.	安装提供的Docker镜像
 
-docker run -d -p 1937:1937/udp --restart=always --name srt2rtmp --network=host -v /root/srt2rtmp/srt.conf:/root/srt.conf haha66666/srt2rtmp
+docker run -d -p 1937:1937/udp --restart=always --name srt2rtmp -v /root/srt2rtmp/srt.conf:/root/srt.conf haha66666/srt2rtmp
 
 Ps:如果使用的是nat服务器，请使用
 
-docker run -d -p 你的端口:1937/udp --restart=always --name srt2rtmp --network=host -v /root/srt2rtmp/srt.conf:/root/srt.conf haha66666/srt2rtmp
+docker run -d -p 你的端口:1937/udp --restart=always --name srt2rtmp -v /root/srt2rtmp/srt.conf:/root/srt.conf haha66666/srt2rtmp
 
 输入docker ps，检查docker镜像是否正常运行
 ![22141FB94E48248D5893F8F081EE0F5F](https://user-images.githubusercontent.com/47912037/140516656-bb5e5ead-a6ce-4834-96fa-91f97b1ad4d9.jpg)
