@@ -27,6 +27,8 @@ curl -fsSL https://get.docker.com | bash -s docker
 得到的结果参考如下：
 
 rtmp://txy.live-push.bilivideo.com/live-bvc/?streamname=live_xxxxxxxxxxx&key=yyyyyyyyyyyyyyyyy&schedule=rtmp&pflag=9
+或
+rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_xxxxxxxxxxx&key=yyyyyyyyyyyyyyyyy&schedule=rtmp&pflag=9
 
 
 ![0FB5E0C90AE62846FF92E78152F8AF5D](https://user-images.githubusercontent.com/47912037/140515796-0cda5977-a382-46e7-8dad-d9dfc12fbfdb.jpg)
